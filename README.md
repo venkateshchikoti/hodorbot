@@ -1,5 +1,5 @@
 # HodorBot
-HodorBot is JavaScript based Web App.
+HodorBot is JavaScript based Web Application.
 It has [React-term](https://github.com/prakhar1989/react-term) based Terminal and
 uses [firebase](https://www.firebase.com/) to host comments section.
 
@@ -14,7 +14,7 @@ cat - to print contents of file.
 
 clear - clear the screen.
 
-man - to display intro.
+intro - to display intro.
 
 hell - find out.
 
@@ -27,11 +27,14 @@ pray - Tell Hodor to Pray for you.
 github - To Open Source code of HodorBot
 
 ```
-### Dont Forgot to replace your Firebase app link in index.html
+### Usage
+* clone into your workspace
+* replace your Firebase app link in index.html for comments box to work.
 
 
 ### Reference
 ```
-https://github.com/prakhar1989/react-term
+* [React-term](https://github.com/prakhar1989/react-term)
+* [firebase](https://www.firebase.com/)
 
 ```
