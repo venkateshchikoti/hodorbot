@@ -28,7 +28,7 @@ github - To Open Source code of HodorBot
 
 ```
 ### Usage
-* clone into your workspace
+* clone into your workspace.
 * replace your Firebase app link in index.html for comments box to work.
 
 
