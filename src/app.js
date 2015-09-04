@@ -19,7 +19,7 @@ var App = React.createClass({
         'intro' : this.showWelcomeMsg,
         'help'  : this.showHelp,
         'cat'   : this.catFile,
-        'github': this.openLink('http://github.com/'),
+        'github': this.openLink('https://github.com/pradeepannepu/hodorbot'),
         'hell': this.showHell,
         'whoisgod': this.showGod,
         'whoami': this.showWho,
