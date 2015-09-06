@@ -2,12 +2,123 @@
 <html>
 <head>
     <title>I am Hodor, The Bot</title>
-    <link rel="stylesheet" href="http://getskeleton.com/dist/css/normalize.css">
-    <link rel="stylesheet" href="http://getskeleton.com/dist/css/skeleton.css">
-    <link rel="stylesheet" href="build/custom.css">
+    <link rel="stylesheet" href="build/normalize.css">
+    <link rel="stylesheet" href="build/skeleton.css">
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+    <style>
+      body {
+        margin: 100px 0;
+        font-family: 'Inconsolata', monospace;
+        font-size: 14px;
+        color: #dfe1e8;
+        background: #ffffff;
+      }
+      #app, div.input-area {
+        height: 100%;
+      }
+      div#main {
+          max-width: 560px;
+          background: #2b303b;
+          border-radius: 5px;
+          height: 400px;
+          -webkit-box-shadow: 0px 0px 13px 0px rgba(50, 50, 50, 0.59);
+          -moz-box-shadow:    0px 0px 13px 0px rgba(50, 50, 50, 0.59);
+          box-shadow:         0px 0px 13px 0px rgba(50, 50, 50, 0.59);
+          overflow: hidden;
+      }
+      .holder {
+          overflow: auto;
+      }
+      .prompt {
+        color: #d28445;
+      }
+      input[type=text], input[type=text]:focus {
+        border: none;
+        padding: 0; 
+        margin: 0;
+        height: 22px;
+        background: #2b303b;
+        color: #ebcb8b;
+        width: 80%;
+      }
+      p { 
+        margin-bottom: 0;
+        line-height: 21px;
+      }
+      #bar {
+        height: 30px;
+        max-width: 560px;
+        background: black;
+        border-radius: 5px;
+      }
+      
+      #content {
+        padding: 20px;
+        height: 100%;
+      }
+    </style>
+
+<style type="text/css">
+/* Shared*/
+.button {
+  border-radius: 100px;
+}
+
+/* Sections */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero*/
+.hero{
+  background-color: #ffffff;
+  text-align: left;
+}
+.hodors {
+  position: relative;
+}
+#fbase input {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+
+}
+#messagesDiv div {
+        font-family: 'Inconsolata', monospace;
+        font-size: 19px;
+        color: black;
+        background: #ffffff;
+
+}
+.hodor {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.hodor + .hodor {
+  display: none;
+}
+/* Categories*/
+.categories {
+  background-size: cover;
+  color: #fff;
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+</style>
 </head>
 <body>
   <div class="categories">
@@ -59,11 +170,11 @@
       </div>
     </div>
   </div>
+  <div class="section">
 <div class="button">
   <h6><a href="https://github.com/pradeepannepu/hodorbot">Hodor is s Bot</a>. "Hodor" name is inspired form Game of Thrones. "FOR THE NIGHT IS DARK AND FULL OF TERRORS"  </h6>
-</div>
-<script type="text/javascript" src="build/main.min.js"></script>
-<script type="text/javascript" src="src/app.js"></script>
+</div></div>
+<script type="text/javascript" src="build/app.js"></script>
 
 <!-- Insert your Firebase link in bellow script tag. -->
 
