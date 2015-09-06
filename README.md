@@ -35,7 +35,7 @@ github - To view code of HodorBot in Github
 * Thats all Folks.
 
 ### Demo
-View [hodorbot.cf](http://hodorbot.cf) for demo
+View [hodorbot.cf](http://hodorbot.cf) for demo fo Hodorbot
 
 ### Reference
 
