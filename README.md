@@ -24,7 +24,7 @@ whoisgod - ask hodor who is GOD.
 
 pray - Tell Hodor to Pray for you.
 
-github - To Open Source code of HodorBot
+github - To view code of HodorBot in Github
 
 ```
 ### Usage
@@ -35,13 +35,13 @@ github - To Open Source code of HodorBot
 * Thats all Folks.
 
 ### Demo
-[Demo](https://8153089ec6df98483c8c5c600063175961cbea8a.googledrive.com/host/0B6ZS-LycsDZQdmpZTzBkblk0cjg/hodorbot/index.html)
+View [hodorbot.cf](http://hodorbot.cf) for demo
 
 ### Reference
 
 * [React-term](https://github.com/prakhar1989/react-term)
 * [firebase](https://www.firebase.com/)
 
-`````
+``````
 
 ``````
